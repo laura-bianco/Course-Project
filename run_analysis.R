@@ -32,3 +32,6 @@ selected_cols$Activity <- factor(selected_cols$Activity, levels = activity_label
 tidy_data <- selected_cols %>%
      group_by(Activity) %>%
      summarise_all(mean)
+
+# writing the tidy data set into a new file
+write.table(tidy_data, file = "tidy_data.txt", row.names = FALSE)
