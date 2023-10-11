@@ -7,6 +7,13 @@ The run_analysis.R script is the code that executes all the requested transforma
 The CodeBook.md file describes the transformations performed in the R script, as well as the data and the variables used in the data.
 
 
+The run_analysis.R script performs 5 functions:
+1. Merges the train and test datasets into one dataset
+2. Extracts only the measurements for mean and standard deviation
+3. Transforms the activity numbers into descriptive activity names
+4. Uses descriptive names for each column
+5. Creates a tidy_data set grouped by activity
+
 If you are confused with how the run_analysis.R script works, then the CodeBook.md file will help explain what was done to the data to achieve the tidy_data.
 The run_analysis.R script is split up into 5 different sections (one for each task) and each section is labelled so that it is clear what is being done in each step.
 All the files required for the script to run are available on the course website under the course project assignment.
